@@ -1,63 +1,4 @@
-<<<<<<< HEAD
-/*
-Syntax error: Invalid CSS after "...als/variables";": expected selector or at-rule, was "<<<<<<< HEAD"
-        on line 3 of /Users/charlesamoss/Desktop/sites/flexbox/sass/styles.scss
-
-1: /Users/charlesamoss/Desktop/sites/flexbox/sass/styles.scss
-
-Backtrace:
-/Users/charlesamoss/Desktop/sites/flexbox/sass/styles.scss:3
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/scss/parser.rb:1148:in `expected'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/scss/parser.rb:1084:in `expected'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/scss/parser.rb:28:in `parse'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/engine.rb:342:in `_to_tree'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/engine.rb:315:in `_render'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/sass-3.2.7/lib/sass/engine.rb:262:in `render'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `call'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:73:in `run_callback'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:55:in `callback_action'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/path.rb:35:in `update'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `each'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:37:in `modified'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `each'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/backends/polling.rb:15:in `run'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm/monitor.rb:26:in `run'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/fssm-0.2.10/lib/fssm.rb:70:in `monitor'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/bin/compass:44:in `call'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/bin/compass:23:in `load'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/bin/compass:23:in `<main>'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `eval'
-/Users/charlesamoss/.rvm/gems/ruby-1.9.3-p392/bin/ruby_noexec_wrapper:14:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Invalid CSS after \"...als/variables\";\": expected selector or at-rule, was \"<<<<<<< HEAD\"\A         on line 3 of /Users/charlesamoss/Desktop/sites/flexbox/sass/styles.scss\A \A 1: /Users/charlesamoss/Desktop/sites/flexbox/sass/styles.scss"; }
-=======
+@charset "UTF-8";
 /* line 55, ../sass/partials/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 
@@ -210,43 +151,41 @@ textarea { overflow: auto; vertical-align: top; }
 /* line 515, ../sass/partials/_normalize.scss */
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* line 1, ../sass/partials/_base.scss */
-body { font-size: 1em; line-height: 1.4; font-family: "SansationRegular","HelveticaNeue-Light","Helvetica Neue", Helvetica, Arial, sans-serif; }
-/* line 6, ../sass/partials/_base.scss */
-.no-fontface body { font-size: 1.05em; }
+/* cook book style sheet */
+/* line 2, ../sass/partials/_cookbook.scss */
+.icon { max-width: 1.2em; max-height: 1.2em; }
 
-/* line 10, ../sass/partials/_base.scss */
-::-moz-selection { background: red; text-shadow: none; }
+/* http://coding.smashingmagazine.com/2013/05/22/centering-elements-with-flexbox */
+/* line 3, ../sass/partials/_flexbox.scss */
+html { height: 100%; }
 
-/* line 14, ../sass/partials/_base.scss */
-::selection { background: red; text-shadow: none; }
+/* line 7, ../sass/partials/_flexbox.scss */
+body { display: -webkit-box; /* OLD: Safari,  iOS, Android browser, older WebKit browsers.  */ display: -moz-box; /* OLD: Firefox (buggy) */ display: -ms-flexbox; /* MID: IE 10 */ display: -webkit-flex; /* NEW, Chrome 21+ */ display: flex; /* NEW: Opera 12.1, Firefox 22+ */ -webkit-box-align: center; -moz-box-align: center; /* OLD… */ -ms-flex-align: center; /* You know the drill now… */ -webkit-align-items: center; align-items: center; -webkit-box-pack: center; -moz-box-pack: center; -ms-flex-pack: center; -webkit-justify-content: center; justify-content: center; margin: 0; height: 100%; width: 100%; }
 
-/* line 1, ../sass/partials/_layout.scss */
-* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+/* line 29, ../sass/partials/_flexbox.scss */
+div[role="main"] { display: -webkit-box; display: -moz-box; display: -ms-flexbox; /* display: -webkit-flex; */ display: flex; -webkit-box-align: center; -moz-box-align: center; -ms-flex-align: center; -webkit-align-items: center; align-items: center; height: 10rem; }
 
-/* line 7, ../sass/partials/_layout.scss */
-body { max-width: 1200px; margin: auto; }
+/* line 1, ../sass/partials/_type.scss */
+h1 { margin: 0; padding-top: .5em; font-size: 1em; letter-spacing: 2px; }
 
-/* line 11, ../sass/partials/_layout.scss */
-header[role="banner"], footer[role="contentinfo"] { width: 100%; display: block; }
+/* line 8, ../sass/partials/_type.scss */
+h2 { color: #990000; margin: 0; padding-top: .5em; font-size: 1.2em; letter-spacing: 2px; }
 
-/* line 15, ../sass/partials/_layout.scss */
-nav[role="navigation"] { width: 25%; float: left; }
+/* line 16, ../sass/partials/_type.scss */
+h3 { margin: 0; padding-top: .2em; font-size: 1em; letter-spacing: 2px; }
 
-/* line 19, ../sass/partials/_layout.scss */
-.main-content { width: 70%; float: right; }
+/* line 23, ../sass/partials/_type.scss */
+h4 { margin: 0; padding-top: .5em; font-size: 1em; letter-spacing: 2px; }
 
-/* line 23, ../sass/partials/_layout.scss */
-footer[role="contentinfo"] { clear: both; }
+/* line 30, ../sass/partials/_type.scss */
+article { max-width: 30em; margin: 0 auto .2em auto; padding: 2em 3em; border: 1px solid rgba(0, 0, 0, 0.07); border-bottom: 0; background-color: #fff; }
 
-/* line 2, ../sass/partials/_modules.scss */
-.chapter-summary a { display: block; padding: .5em; color: black; opacity: .7; border: none; }
-/* line 8, ../sass/partials/_modules.scss */
-.chapter-summary a:hover { opacity: 1; }
-/* line 11, ../sass/partials/_modules.scss */
-.chapter-summary a:visited { opacity: .9; }
-/* line 14, ../sass/partials/_modules.scss */
-.chapter-summary a b { display: block; }
-/* line 17, ../sass/partials/_modules.scss */
-.chapter-summary a span { display: block; font-size: .8em; }
->>>>>>> 2dc90831ae162926adacaa052c5332e09a53c5fb
+/* line 39, ../sass/partials/_type.scss */
+p { text-indent: 1.25em; }
+
+@media screen and (min-width: 1300px) { /* line 48, ../sass/partials/_type.scss */
+  body { font-size: 24px; } }
+@media screen and (min-width: 1800px) { /* line 49, ../sass/partials/_type.scss */
+  body { font-size: 30px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; } }
+@media screen and (min-width: 2100px) { /* line 50, ../sass/partials/_type.scss */
+  body { font-size: 36px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; } }
