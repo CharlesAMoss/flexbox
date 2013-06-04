@@ -1,0 +1,124 @@
+<!doctype html>
+<!--[if lt IE 7]> <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width">
+  <style>
+    
+
+	body {
+	width: 1024px;
+	margin: 0 auto;	
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-content: flex-start;
+    -ms-flex-line-pack: start;
+    align-content: flex-start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+     -webkit-justify-content: space-between;
+    justify-content: space-between;
+    }
+     	
+	/*	
+	header,article,section,aside,div {
+		border: 1px solid #000;
+		height: 50px;
+	}
+	header, section {
+		width: 35.15625%;
+	}
+	
+    header, article {
+        margin: 0 0 20px 0 ;
+    }
+   
+    .left {
+      	width: 21.09375%%;
+    }
+
+    .right {
+		width: 35.15625%;
+    }	*/
+
+
+.flex-item:nth-child(1) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    width: 21.09375%;
+    }
+
+.flex-item:nth-child(2) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    width: 35.15625%;
+    }
+
+.flex-item:nth-child(3) {
+    -webkit-order: 0;
+    -ms-flex-order: 0;
+    order: 0;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    -webkit-align-self: auto;
+    -ms-flex-item-align: auto;
+    align-self: auto;
+    width: 35.15625%;
+    }
+    .flex-item {
+    width: 35.15625%;
+    border: 2px solid #999;
+    height: 189px;
+}
+  </style>
+
+</head>
+<body>
+
+<div class="flex-item">I'm fucking number one!</div>
+
+
+<div class="flex-item">I'm flipping number two!</div>
+	
+
+<div class="flex-item">I'm three for fuck-sake!</div>
+
+</body>
+</html>
+
+<!-- 
+1024 / 2 = 512
+1024 / 3 = 341.3
+360 is 35.15625% of 1024
+216 is 21.09375% of 1024  
+.13671875%
+
+-->

@@ -1,11 +1,5 @@
+/* http://coding.smashingmagazine.com/2013/05/22/centering-elements-with-flexbox */
 
-<!DOCTYPE html>
-<html lang="en">
-<head>
-   <meta charset="utf-8"/>
-   <title>Centering an Element on the Page</title>
-
-<style>
 html {
    height: 100%;
 } 
@@ -32,10 +26,10 @@ body {
    width: 100% /* needed for Firefox */
 } 
 
-h1 {
+div[role="main"] {
    display: -webkit-box; display: -moz-box;
    display: -ms-flexbox;
-   display: -webkit-flex;
+  /* display: -webkit-flex; */
    display: flex;
  
    -webkit-box-align: center; -moz-box-align: center;
@@ -44,15 +38,4 @@ h1 {
    align-items: center;
 
    height: 10rem;
-
 }
-</style>
-
-
-</head>
-<body>
-   <h1>OMG, I’m centered</h1>
-</body>
-</html>
-
-<!-- hhttp://coding.smashingmagazine.com/2013/05/22/centering-elements-with-flexbox/ -->
