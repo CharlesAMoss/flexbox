@@ -154,49 +154,49 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* line 2, ../sass/partials/_cookbook.scss */
 .icon { max-width: 1.2em; max-height: 1.2em; }
 
-/* line 2, ../sass/partials/_flexbox.scss */
+/* line 49, ../sass/partials/_flexbox.scss */
 body { width: 978px; margin: 0 auto; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; }
 
-/* line 24, ../sass/partials/_flexbox.scss */
+/* line 57, ../sass/partials/_flexbox.scss */
 .flex-item:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; width: 21.09375%; }
 
-/* line 38, ../sass/partials/_flexbox.scss */
+/* line 62, ../sass/partials/_flexbox.scss */
 .flex-item:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; width: 35.15625%; }
 
-/* line 51, ../sass/partials/_flexbox.scss */
+/* line 67, ../sass/partials/_flexbox.scss */
 .flex-item:nth-child(3) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; width: 35.15625%; }
 
-/* line 65, ../sass/partials/_flexbox.scss */
+/* line 76, ../sass/partials/_flexbox.scss */
 nav { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; height: 409px; }
 
-/* line 86, ../sass/partials/_flexbox.scss */
+/* line 83, ../sass/partials/_flexbox.scss */
 .navi:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 99, ../sass/partials/_flexbox.scss */
+/* line 88, ../sass/partials/_flexbox.scss */
 .navi:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 112, ../sass/partials/_flexbox.scss */
+/* line 93, ../sass/partials/_flexbox.scss */
 .navi { border: 2px solid #999; height: 189px; width: 216px; }
 
-/* line 119, ../sass/partials/_flexbox.scss */
+/* line 102, ../sass/partials/_flexbox.scss */
 .main { height: 816px; }
 
-/* line 124, ../sass/partials/_flexbox.scss */
+/* line 107, ../sass/partials/_flexbox.scss */
 .main, section { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; width: 360px; }
 
-/* line 145, ../sass/partials/_flexbox.scss */
+/* line 114, ../sass/partials/_flexbox.scss */
 section { height: 601px; }
 
-/* line 150, ../sass/partials/_flexbox.scss */
+/* line 119, ../sass/partials/_flexbox.scss */
 header { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 189px; width: 360px; }
 
-/* line 164, ../sass/partials/_flexbox.scss */
+/* line 125, ../sass/partials/_flexbox.scss */
 article:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 378px; width: 360px; }
 
-/* line 178, ../sass/partials/_flexbox.scss */
+/* line 131, ../sass/partials/_flexbox.scss */
 article:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 189px; width: 360px; }
 
-/* line 200, ../sass/partials/_flexbox.scss */
+/* line 145, ../sass/partials/_flexbox.scss */
 aside { border: 2px solid #999; height: 400px; }
 
 /* line 1, ../sass/partials/_type.scss */
