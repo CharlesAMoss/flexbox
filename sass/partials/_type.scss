@@ -9,7 +9,7 @@ h2 {
 color: #990000;
 margin: 0;
 padding-top:.5em;
-font-size: $h2Size;
+font-size: 1.2em;
 letter-spacing: 2px;	
 }
 
@@ -34,12 +34,12 @@ text-indent: 1.25em;
 }
 
 
-@media screen and (max-width:325px) {}
-@media screen and (max-width:500px) {}
-@media screen and (max-width:900px) {}
+// @media screen and (max-width:325px) {}
+// @media screen and (max-width:500px) {}
+// @media screen and (max-width:900px) {}
 	
-@media screen and (min-width:1300px) { 	body { font-size: 24px; }  }
-@media screen and (min-width:1800px) { 	body { font-size: 30px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }  }
-@media screen and (min-width:2100px) { 	body { font-size: 36px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }  }
+// @media screen and (min-width:1300px) { 	body { font-size: 24px; }  }
+// @media screen and (min-width:1800px) { 	body { font-size: 30px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }  }
+// @media screen and (min-width:2100px) { 	body { font-size: 36px; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; }  }
  
  

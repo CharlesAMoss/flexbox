@@ -10,5 +10,12 @@ $color9: #FF00FF; // Magenta
 $color10: #000; // Black
 $color11: #fff; // White
 
-$h2Size: 1.2em;
 
+
+
+
+@mixin boxsizing-borderbox {
+-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+box-sizing: border-box;         /* Opera/IE 8+ */
+}

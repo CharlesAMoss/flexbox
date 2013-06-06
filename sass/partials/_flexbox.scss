@@ -13,32 +13,36 @@
     -ms-flex-direction: column;
     flex-direction: column;
 }
-
-@mixin containerRow {
-    @include displayFlex;
-    @include direction-row;
+@mixin wrap-nowrap {
     -webkit-flex-wrap: nowrap;
     -ms-flex-wrap: nowrap;
     flex-wrap: nowrap;
+}
+@mixin alignContent-flexStart {
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start;
+}
+@mixin alignItems-flexStart {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
 }
+
+
+@mixin containerRow {
+    @include displayFlex;
+    @include direction-row;
+    @include wrap-nowrap;
+    @include alignContent-flexStart;
+    @include alignItems-flexStart;
+}
  @mixin containerCol { 
     @include displayFlex;
     @include direction-col;
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
-    -webkit-align-content: flex-start;
-    -ms-flex-line-pack: start;
-    align-content: flex-start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    @include wrap-nowrap;
+    @include alignContent-flexStart;
+    @include alignItems-flexStart;
 }
 @mixin flexItem {   
     -webkit-order: 0;
@@ -53,6 +57,9 @@
 }
 html {
     background-color: #333333;
+}
+* {
+    @include boxsizing-borderbox;
 }
 body {
     width: 95.5078125%;
@@ -191,17 +198,20 @@ aside:last-child(3){
 .contact:nth-child(3){
     @include flexItem;
 }
+
 .contactSub{
     height: 100px;
     width: 27.77777777777778%;
     border: 2px solid #999;
-
 }
 .rights {
-    height: 26px;
+    height: 36px;
     width: 100%;
     border: 2px solid #999;
     text-align: right;
-    padding: 10px 10px 0 0;
+    padding: 5px 10px 0 0;
     color: #999;
+    &:hover {
+    color: #fff;
+    }
 }
