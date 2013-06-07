@@ -1,0 +1,156 @@
+html {
+    background-color: #333333;
+}
+* {
+    @include boxsizing-borderbox;
+}
+body {
+    width: 95.5078125%;
+    margin: 0 auto;   
+    @include containerRow;
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+    }
+
+.flex-item:nth-child(1) {
+    @include flexItem;
+    width: 21.09375%;
+    }
+
+.flex-item:nth-child(2) {
+    @include flexItem;
+    width: 35.15625%;
+    }
+
+.flex-item:nth-child(3) {
+    @include flexItem;
+    width: 35.15625%;
+    }
+
+
+// left row ==================================|
+
+
+nav {
+    @include containerCol;
+    @include justifyContent-spaceBetween; 
+    height: 409px;
+    }
+
+.navi:nth-child(1) {
+    @include flexItem;
+    }
+.navi:nth-child(2) {
+    @include flexItem;
+    }
+
+.navi {
+    border: 2px solid #999;
+    height: 189px;
+    width: 100%;
+}
+
+// center row ==================================|
+
+
+.main {
+    height: 816px;
+}
+
+
+.main, section {
+    @include containerCol;
+     -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+section{
+    height: 601px;
+
+}
+
+header{
+    @include flexItem;
+    border: 2px solid #999;
+    height: 189px;
+    width: 100%;
+    }
+article:nth-child(1) {
+    @include flexItem;
+    border: 2px solid #999;
+    height: 378px;
+    width: 100%;
+    }
+article:nth-child(2) {
+    @include flexItem;
+    border: 2px solid #999;
+    height: 189px;
+    width: 100%;
+    }
+
+
+
+// right row ==================================|
+
+
+
+
+aside {
+     @include containerCol;
+     -webkit-justify-content: space-between;
+     justify-content: space-between;
+     width: 100%;
+     height: 593px;
+}
+aside:nth-child(1){
+    @include flexItem;
+}
+aside:nth-child(2){
+    @include flexItem;
+}
+aside:last-child(3){
+    @include flexItem;
+}
+.archive{
+    border: 2px solid #999;
+    height: 400px;
+    width: 100%;
+}
+
+.contact {
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    @include containerRow;
+    height: 100px;
+    width: 100%;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    
+}
+.contact:nth-child(1){
+    @include flexItem;
+}
+.contact:nth-child(2){
+    @include flexItem;
+}
+.contact:nth-child(3){
+    @include flexItem;
+}
+
+.contactSub{
+    height: 100px;
+    width: 27.77777777777778%;
+    border: 2px solid #999;
+}
+.rights {
+    height: 36px;
+    width: 100%;
+    border: 2px solid #999;
+    text-align: right;
+    padding: 5px 10px 0 0;
+    color: #999;
+    &:hover {
+    color: #fff;
+    }
+}
