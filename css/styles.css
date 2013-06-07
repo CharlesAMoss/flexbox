@@ -158,79 +158,91 @@ html { background-color: #333333; }
 
 /* line 7, ../sass/partials/_layout.scss */
 body { width: 95.5078125%; margin: 0 auto; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-around; justify-content: space-around; }
+@media screen and (max-width: 768px) { /* line 7, ../sass/partials/_layout.scss */
+  body { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; height: 1660px; width: 90%; } }
 
-/* line 15, ../sass/partials/_layout.scss */
+/* line 21, ../sass/partials/_layout.scss */
 .flex-item:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; width: 21.09375%; }
+@media screen and (max-width: 768px) { /* line 21, ../sass/partials/_layout.scss */
+  .flex-item:nth-child(1) { width: 100%; } }
 
-/* line 20, ../sass/partials/_layout.scss */
+/* line 28, ../sass/partials/_layout.scss */
 .flex-item:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; width: 35.15625%; }
+@media screen and (max-width: 768px) { /* line 28, ../sass/partials/_layout.scss */
+  .flex-item:nth-child(2) { width: 100%; } }
 
-/* line 25, ../sass/partials/_layout.scss */
+/* line 37, ../sass/partials/_layout.scss */
 .flex-item:nth-child(3) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; width: 35.15625%; }
+@media screen and (max-width: 768px) { /* line 37, ../sass/partials/_layout.scss */
+  .flex-item:nth-child(3) { width: 100%; } }
 
-/* line 34, ../sass/partials/_layout.scss */
+/* line 50, ../sass/partials/_layout.scss */
 nav { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; height: 409px; }
+@media screen and (max-width: 768px) { /* line 50, ../sass/partials/_layout.scss */
+  nav { height: 189px; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; } }
 
-/* line 40, ../sass/partials/_layout.scss */
+/* line 59, ../sass/partials/_layout.scss */
 .navi:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 43, ../sass/partials/_layout.scss */
+/* line 62, ../sass/partials/_layout.scss */
 .navi:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 47, ../sass/partials/_layout.scss */
+/* line 66, ../sass/partials/_layout.scss */
 .navi { border: 2px solid #999; height: 189px; width: 100%; }
+@media screen and (max-width: 768px) { /* line 66, ../sass/partials/_layout.scss */
+  .navi { width: 46.875%; } }
 
-/* line 56, ../sass/partials/_layout.scss */
+/* line 78, ../sass/partials/_layout.scss */
 .main { height: 816px; }
 
-/* line 61, ../sass/partials/_layout.scss */
+/* line 83, ../sass/partials/_layout.scss */
 .main, section { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; width: 100%; }
 
-/* line 68, ../sass/partials/_layout.scss */
+/* line 90, ../sass/partials/_layout.scss */
 section { height: 601px; }
 
-/* line 73, ../sass/partials/_layout.scss */
+/* line 95, ../sass/partials/_layout.scss */
 header { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 189px; width: 100%; }
 
-/* line 79, ../sass/partials/_layout.scss */
+/* line 101, ../sass/partials/_layout.scss */
 article:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 378px; width: 100%; }
 
-/* line 85, ../sass/partials/_layout.scss */
+/* line 107, ../sass/partials/_layout.scss */
 article:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 189px; width: 100%; }
 
-/* line 99, ../sass/partials/_layout.scss */
+/* line 121, ../sass/partials/_layout.scss */
 aside { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; width: 100%; height: 593px; }
 
-/* line 106, ../sass/partials/_layout.scss */
+/* line 128, ../sass/partials/_layout.scss */
 aside:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 109, ../sass/partials/_layout.scss */
+/* line 131, ../sass/partials/_layout.scss */
 aside:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 112, ../sass/partials/_layout.scss */
+/* line 134, ../sass/partials/_layout.scss */
 aside:last-child(3) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 115, ../sass/partials/_layout.scss */
+/* line 137, ../sass/partials/_layout.scss */
 .archive { border: 2px solid #999; height: 400px; width: 100%; }
 
-/* line 121, ../sass/partials/_layout.scss */
+/* line 143, ../sass/partials/_layout.scss */
 .contact { -webkit-justify-content: space-between; justify-content: space-between; display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; height: 100px; width: 100%; -webkit-justify-content: space-between; justify-content: space-between; }
 
-/* line 131, ../sass/partials/_layout.scss */
+/* line 153, ../sass/partials/_layout.scss */
 .contact:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 134, ../sass/partials/_layout.scss */
+/* line 156, ../sass/partials/_layout.scss */
 .contact:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 137, ../sass/partials/_layout.scss */
+/* line 159, ../sass/partials/_layout.scss */
 .contact:nth-child(3) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
-/* line 141, ../sass/partials/_layout.scss */
+/* line 163, ../sass/partials/_layout.scss */
 .contactSub { height: 100px; width: 27.77777777777778%; border: 2px solid #999; }
 
-/* line 146, ../sass/partials/_layout.scss */
+/* line 168, ../sass/partials/_layout.scss */
 .rights { height: 36px; width: 100%; border: 2px solid #999; text-align: right; padding: 5px 10px 0 0; color: #999; }
-/* line 153, ../sass/partials/_layout.scss */
+/* line 175, ../sass/partials/_layout.scss */
 .rights:hover { color: #fff; }
 
 /* line 1, ../sass/partials/_type.scss */

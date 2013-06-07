@@ -10,22 +10,38 @@ body {
     @include containerRow;
     -webkit-justify-content: space-around;
     justify-content: space-around;
+        @media screen and (max-width: $break-medium) {
+    @include containerCol;
+    @include justifyContent-spaceBetween;
+    height: 1660px;
+    width: 90%;
+    }
     }
 
 .flex-item:nth-child(1) {
     @include flexItem;
     width: 21.09375%;
-    }
-
+        @media screen and (max-width: $break-medium) {
+    width: 100%;
+}
+}
 .flex-item:nth-child(2) {
     @include flexItem;
     width: 35.15625%;
-    }
+        @media screen and (max-width: $break-medium) {
+    width: 100%;
+    
+}
+}
 
 .flex-item:nth-child(3) {
     @include flexItem;
     width: 35.15625%;
-    }
+        @media screen and (max-width: $break-medium) {
+    width: 100%;
+    
+}
+}
 
 
 // left row ==================================|
@@ -35,8 +51,11 @@ nav {
     @include containerCol;
     @include justifyContent-spaceBetween; 
     height: 409px;
+        @media screen and (max-width: $break-medium) {
+    height: 189px;
+    @include containerRow;
     }
-
+}
 .navi:nth-child(1) {
     @include flexItem;
     }
@@ -48,6 +67,9 @@ nav {
     border: 2px solid #999;
     height: 189px;
     width: 100%;
+        @media screen and (max-width: $break-medium) {
+    width:46.875%;
+}
 }
 
 // center row ==================================|
