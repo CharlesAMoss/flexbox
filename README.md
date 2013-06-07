@@ -2,13 +2,19 @@
 
 ##working with flexbox css
 
+https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes
+
 http://coding.smashingmagazine.com/2013/05/22/centering-elements-with-flexbox/
 
 https://github.com/leepowellcouk/css3-flexbox-demo
 
-###eric meyer -http://youtu.be/XKpiP60HXwM
-
 http://coding.smashingmagazine.com/2011/09/19/css3-flexible-box-layout-explained/
+
+http://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
+###eric meyer - http://youtu.be/XKpiP60HXwM
+
+###flexbox sandbox - http://the-echoplex.net/flexyboxes/
 
 ##dribbbles
 
