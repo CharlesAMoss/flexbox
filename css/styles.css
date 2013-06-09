@@ -202,16 +202,19 @@ nav { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-d
 section { height: 597px; }
 
 /* line 89, ../sass/partials/_layout.scss */
-header { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 189px; width: 100%; }
+header, article { border: 2px solid #999; width: 100%; }
 
-/* line 96, ../sass/partials/_layout.scss */
-article:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 378px; width: 100%; }
+/* line 95, ../sass/partials/_layout.scss */
+header { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; height: 189px; }
 
-/* line 102, ../sass/partials/_layout.scss */
-article:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; border: 2px solid #999; height: 189px; width: 100%; }
+/* line 100, ../sass/partials/_layout.scss */
+article:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; height: 378px; }
+
+/* line 104, ../sass/partials/_layout.scss */
+article:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; height: 189px; }
 
 /* line 116, ../sass/partials/_layout.scss */
-aside { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; width: 100%; height: 593px; }
+aside { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: column; -ms-flex-direction: column; flex-direction: column; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; width: 100%; height: 597px; }
 
 /* line 122, ../sass/partials/_layout.scss */
 aside:nth-child(1) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
@@ -223,7 +226,7 @@ aside:nth-child(2) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex
 aside:last-child(3) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-flex: 0 1 auto; -ms-flex: 0 1 auto; flex: 0 1 auto; -webkit-align-self: auto; -ms-flex-item-align: auto; align-self: auto; }
 
 /* line 132, ../sass/partials/_layout.scss */
-.archive { border: 2px solid #999; height: 400px; width: 100%; }
+.archive { border: 2px solid #999; height: 408px; width: 100%; }
 
 /* line 138, ../sass/partials/_layout.scss */
 .contact { display: -ms-flexbox; display: -webkit-flex; display: flex; -webkit-flex-direction: row; -ms-flex-direction: row; flex-direction: row; -webkit-flex-wrap: nowrap; -ms-flex-wrap: nowrap; flex-wrap: nowrap; -webkit-align-content: flex-start; -ms-flex-line-pack: start; align-content: flex-start; -webkit-align-items: flex-start; -ms-flex-align: start; align-items: flex-start; -webkit-justify-content: space-between; justify-content: space-between; height: 100px; width: 100%; }
@@ -241,7 +244,7 @@ aside:last-child(3) { -webkit-order: 0; -ms-flex-order: 0; order: 0; -webkit-fle
 .contactSub { height: 100px; width: 27.77777777777778%; border: 2px solid #999; }
 
 /* line 160, ../sass/partials/_layout.scss */
-.rights { height: 36px; width: 100%; border: 2px solid #999; text-align: right; padding: 5px 10px 0 0; color: #999; }
+.rights { height: 30px; width: 100%; border: 2px solid #999; text-align: right; padding: 4px 10px 0 0; color: #999; }
 /* line 167, ../sass/partials/_layout.scss */
 .rights:hover { color: #fff; }
 
