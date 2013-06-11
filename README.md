@@ -14,30 +14,25 @@ http://coding.smashingmagazine.com/2011/09/19/css3-flexible-box-layout-explained
 http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
-###eric meyer - http://youtu.be/XKpiP60HXwM
+[###eric meyer](http://youtu.be/XKpiP60HXwM)
 
-###flexbox sandbox - http://the-echoplex.net/flexyboxes/
-
----
-
-my flexbox scss mixins 
-
-https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_flexbox.scss
-
-
-###text-shadows by Joshua Johnson - http://ow.ly/5cf6s
+[###flexbox sandbox](http://the-echoplex.net/flexyboxes/)
 
 ---
 
-text-shadow scss mixin styles base on Joshua Johnson **in progress**
+[my flexbox scss mixins](https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_flexbox.scss)
 
-https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_textShadow.scss
+---
 
-* * *
+[###text-shadows by Joshua Johnson](http://ow.ly/5cf6s)
+
+**in progress**[text-shadow scss mixin styles base on Joshua Johnson](https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_textShadow.scss)
+
+---
 
 ##dribbbles
 
-http://dribbble.com/shots/1102895-Flexbox-in-Progress?list=following
+[process](http://dribbble.com/shots/1102895-Flexbox-in-Progress?list=following)
 
-http://dribbble.com/shots/1097498-Wireframe-for-a-flexbox-project?list=users
+[wirefire](http://dribbble.com/shots/1097498-Wireframe-for-a-flexbox-project?list=users)
 
