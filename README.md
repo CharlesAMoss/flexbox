@@ -18,8 +18,22 @@ http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ###flexbox sandbox - http://the-echoplex.net/flexyboxes/
 
+---
+
+my flexbox scss mixins 
+
+https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_flexbox.scss
+
+
 ###text-shadows by Joshua Johnson - http://ow.ly/5cf6s
 
+---
+
+text-shadow scss mixin styles base on Joshua Johnson **in progress**
+
+https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_textShadow.scss
+
+* * *
 
 ##dribbbles
 
