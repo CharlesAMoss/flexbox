@@ -1,5 +1,6 @@
 #inspiration and resources
 
+
 ##working with flexbox css
 
 https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Flexible_boxes
@@ -12,12 +13,17 @@ http://coding.smashingmagazine.com/2011/09/19/css3-flexible-box-layout-explained
 
 http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
+
 ###eric meyer - http://youtu.be/XKpiP60HXwM
 
 ###flexbox sandbox - http://the-echoplex.net/flexyboxes/
+
+###text-shadows by Joshua Johnson - http://ow.ly/5cf6s
+
 
 ##dribbbles
 
 http://dribbble.com/shots/1102895-Flexbox-in-Progress?list=following
 
 http://dribbble.com/shots/1097498-Wireframe-for-a-flexbox-project?list=users
+

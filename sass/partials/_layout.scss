@@ -1,5 +1,5 @@
 html {
-    background-color: #333333;
+    background-color: $flexcolor2;
 }
 * {
     @include boxsizing-borderbox;
@@ -60,7 +60,7 @@ nav {
     }
 
 .navi {
-    border: 2px solid #999;
+    background-color: $flexcolor1;
     height: $heightBlock; // 189
     width: 100%;
         @media screen and (max-width: $break-medium) {
@@ -87,7 +87,7 @@ section{
     }
 
 header, article {
-    border: 2px solid #999;
+    background-color: $flexcolor1;
     width: 100%;
     }
 
@@ -130,7 +130,7 @@ aside:last-child(3){
     }
 
 .archive{
-    border: 2px solid #999;
+    background-color: $flexcolor1;
     height: ($heightBlock*2)+$marginBlock;
     width: 100%;
     }
@@ -155,15 +155,16 @@ aside:last-child(3){
 .contactSub{
     height: 100px;
     width: 27.77777777777778%;
-    border: 2px solid #999;
+    background-color: $flexcolor1;
     }
 .rights {
     height: $marginBlock;
     width: 100%;
-    border: 2px solid #999;
+    background-color: $flexcolor1;
     text-align: right;
     padding: 4px 10px 0 0;
-    color: #999;
+    color: lighten($flexcolor1, 20%);
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
     &:hover {
     color: #fff;
     }
