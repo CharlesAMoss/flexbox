@@ -1,5 +1,5 @@
 html {
-    background-color: $flexcolor2;
+    background-color: $flexcolor3;
 }
 * {
     @include boxsizing-borderbox;
@@ -54,9 +54,11 @@ nav {
     }
 .navi:nth-child(1) {
     @include flexItem;
+    @include liteUPhover;
     }
 .navi:nth-child(2) {
     @include flexItem;
+    @include liteUPhover;
     }
 
 .navi {
@@ -95,15 +97,18 @@ header, article {
 header{
     @include flexItem;
     height: $heightBlock; // 189
+    @include liteUPhover;
     }
 
 article:nth-child(1) {
     @include flexItem;
     height: $heightBlock*2; // 189 * 2
+    @include liteUPhover;
     }
 article:nth-child(2) {
     @include flexItem;
     height: $heightBlock; // 189
+    @include liteUPhover;
     }
 
 
@@ -133,6 +138,7 @@ aside:last-child(3){
     background-color: $flexcolor1;
     height: ($heightBlock*2)+$marginBlock;
     width: 100%;
+    @include liteUPhover;
     }
 
 .contact {
@@ -156,6 +162,7 @@ aside:last-child(3){
     height: 100px;
     width: 27.77777777777778%;
     background-color: $flexcolor1;
+    @include liteUPhover;
     }
 .rights {
     height: $marginBlock;
@@ -165,6 +172,7 @@ aside:last-child(3){
     padding: 4px 10px 0 0;
     color: lighten($flexcolor1, 20%);
     text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    @include liteUPhover;
     &:hover {
     color: #fff;
     }

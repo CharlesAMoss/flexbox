@@ -14,19 +14,17 @@ http://coding.smashingmagazine.com/2011/09/19/css3-flexible-box-layout-explained
 http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 
-[###eric meyer](http://youtu.be/XKpiP60HXwM)
+###[eric meyer](http://youtu.be/XKpiP60HXwM)
 
-[###flexbox sandbox](http://the-echoplex.net/flexyboxes/)
+###[flexbox sandbox](http://the-echoplex.net/flexyboxes/)
 
----
-
-[my flexbox scss mixins](https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_flexbox.scss)
+###[my flexbox scss mixins](https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_flexbox.scss)
 
 ---
 
 [###text-shadows by Joshua Johnson](http://ow.ly/5cf6s)
 
-**in progress**[text-shadow scss mixin styles base on Joshua Johnson](https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_textShadow.scss)
+**in progress** [text-shadow scss mixin styles base on Joshua Johnson](https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_textShadow.scss)
 
 ---
 
