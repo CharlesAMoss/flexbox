@@ -8,10 +8,10 @@ body {
     width: 95.5078125%;
     margin: 0 auto;   
     @include containerRow;
-    @include justifyContent-spaceAround;
+    @include justifyContent(space-around);
         @media screen and (max-width: $break-medium) {
     @include containerCol;
-    @include justifyContent-spaceBetween;
+    @include justifyContent(space-between);
     height: 1660px;
     width: 90%;
     }
@@ -45,7 +45,7 @@ body {
 
 nav {
     @include containerCol;
-    @include justifyContent-spaceBetween; 
+    @include justifyContent(space-between); 
     height: ($heightBlock*2)+$marginBlock;  // 189 + 30 + 189  
         @media screen and (max-width: $break-medium) {
     height: $heightBlock;
@@ -80,7 +80,7 @@ nav {
 
 .main, section {
     @include containerCol;
-    @include justifyContent-spaceBetween;
+    @include justifyContent(space-between);
     width: 100%;
     }
 
@@ -120,7 +120,7 @@ article:nth-child(2) {
 
 aside {
     @include containerCol;
-    @include justifyContent-spaceBetween;
+    @include justifyContent(space-between);
     width: 100%;
     height: ($heightBlock*3)+$marginBlock;
     }
@@ -143,7 +143,7 @@ aside:last-child(3){
 
 .contact {
     @include containerRow;
-    @include justifyContent-spaceBetween;
+    @include justifyContent(space-between);
     height: 100px;
     width: 100%;
     }

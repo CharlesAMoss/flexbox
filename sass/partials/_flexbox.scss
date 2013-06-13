@@ -12,31 +12,37 @@
     flex-direction: $fDir;
 }
 
-// flex wrap [ nowrap | wrap | wrap-reverse ]
+// flex-wrap [ nowrap | wrap | wrap-reverse ]
 
 @mixin flexWrap($fWrap) {
     -webkit-flex-wrap: $fWrap;
     -ms-flex-wrap: $fWrap;
     flex-wrap: $fWrap;
 }
+
+// align-content [ flex-start | flex-end | center | space-between | space-around | stretch ]
+
 @mixin alignContent-flexStart {
     -webkit-align-content: flex-start;
     -ms-flex-line-pack: start;
     align-content: flex-start;
 }
+
+// align-items [ flex-start | flex-end | center | space-between | space-around | stretch ]
+
 @mixin alignItems-flexStart {
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
     align-items: flex-start;
 }
-@mixin justifyContent-spaceBetween {
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
+
+// justify-content [ flex-start | flex-end | center | space-between | space-around | stretch ]
+
+@mixin justifyContent($jCon) {
+    -webkit-justify-content: $jCon;
+    justify-content: $jCon;
 }
-@mixin justifyContent-spaceAround {
-    -webkit-justify-content: space-around;
-    justify-content: space-around;
-}
+
 @mixin containerRow {
     @include displayFlex;
     @include flexDirection(row);
