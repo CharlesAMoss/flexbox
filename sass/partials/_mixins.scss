@@ -5,19 +5,10 @@
 box-sizing: border-box;         /* Opera/IE 8+ */
 }
 
-
-
-
-@mixin boxShadow1{
--webkit-box-shadow: 0px 0px 30px rgba(122,198,218,.3);
--moz-box-shadow:    0px 0px 30px rgba(122,198,218,.3);
-box-shadow:         0px 0px 30px rgba(122,198,218,.3);
-}
-
 @mixin liteUPhover{
 &:hover {
 background-color:$flexcolor2;
 box-shadow: 2px 8px 6px rgba(31, 42, 54,0.2),
-                 0px -5px 35px rgba(88,119,154,0.3);
+            0px -5px 35px rgba(88,119,154,0.3);
 }
 }

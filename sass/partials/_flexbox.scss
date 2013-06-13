@@ -3,20 +3,21 @@
     display: -webkit-flex;
     display: flex;
 }
-@mixin direction-row {
-    -webkit-flex-direction: row;
-    -ms-flex-direction: row;
-    flex-direction: row;
+
+// flex direction [ row | row-reverse | column | column-reverse ]
+
+@mixin flexDirection($fDir) {
+    -webkit-flex-direction: $fDir;
+    -ms-flex-direction: $fDir;
+    flex-direction: $fDir;
 }
-@mixin direction-col {
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-}
-@mixin wrap-nowrap {
-    -webkit-flex-wrap: nowrap;
-    -ms-flex-wrap: nowrap;
-    flex-wrap: nowrap;
+
+// flex wrap [ nowrap | wrap | wrap-reverse ]
+
+@mixin flexWrap($fWrap) {
+    -webkit-flex-wrap: $fWrap;
+    -ms-flex-wrap: $fWrap;
+    flex-wrap: $fWrap;
 }
 @mixin alignContent-flexStart {
     -webkit-align-content: flex-start;
@@ -38,15 +39,15 @@
 }
 @mixin containerRow {
     @include displayFlex;
-    @include direction-row;
-    @include wrap-nowrap;
+    @include flexDirection(row);
+    @include flexWrap(nowrap);
     @include alignContent-flexStart;
     @include alignItems-flexStart;
 }
  @mixin containerCol { 
     @include displayFlex;
-    @include direction-col;
-    @include wrap-nowrap;
+    @include flexDirection(column);
+    @include flexWrap(nowrap);
     @include alignContent-flexStart;
     @include alignItems-flexStart;
 }

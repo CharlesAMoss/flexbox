@@ -22,7 +22,7 @@ http://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ---
 
-[###text-shadows by Joshua Johnson](http://ow.ly/5cf6s)
+###[text-shadows by Joshua Johnson](http://ow.ly/5cf6s)
 
 **in progress** [text-shadow scss mixin styles base on Joshua Johnson](https://github.com/CharlesAMoss/flexbox/blob/master/sass/partials/_textShadow.scss)
 
