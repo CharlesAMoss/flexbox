@@ -54,17 +54,38 @@ nav {
     }
 .navi:nth-child(1) {
     @include flexItem;
-    @include liteUPhover;
+    @include containerCol;
+    -webkit-align-items: center;
+    @include justifyContent(center);
     }
 .navi:nth-child(2) {
     @include flexItem;
-    @include liteUPhover;
     }
 
 .navi {
     background-color: $flexcolor1;
+    @include liteUPhover;
     height: $heightBlock; // 189
     width: 100%;
+    a { 
+        display:block;
+        color: $flexcolor3;
+        background-color: $flexcolor4;
+        border-radius: 4px;
+        @include flexItem;
+        text-decoration: none;
+        text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+        text-align: center;
+        padding: 8px 0 0 0;
+        margin: 5px 0 0 0; 
+        height: 35px;
+        width: 80%;
+        &:hover {
+        background-color: $flexcolor5;
+        box-shadow: 2px 8px 6px rgba(31, 42, 54,0.2),
+            0px -5px 35px rgba(88,119,154,0.3);
+    }
+    }
         @media screen and (max-width: $break-medium) {
     width:46.875%;
     }
@@ -98,6 +119,12 @@ header{
     @include flexItem;
     height: $heightBlock; // 189
     @include liteUPhover;
+    .logo {
+        display:block;
+        width: 162px; 
+        height: 162px;
+        margin: 13.5px auto 13.5px auto;
+    }
     }
 
 article:nth-child(1) {
